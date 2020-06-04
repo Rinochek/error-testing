@@ -8,3 +8,6 @@ def test_add():
 
 def subtract(a, b):
     return a + b
+
+def test_subtract():
+    assert subtract(3, 2) == 1
